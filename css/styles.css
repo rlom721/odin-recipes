@@ -1,0 +1,36 @@
+* {
+    font-family: Monaco, 'Lucida Console', 'Courier New', monospace;
+}
+
+h1 {
+    background-color: cadetblue;
+    color: whitesmoke; 
+    text-align: center;
+    font-size: 36px;
+}
+
+.recipes-list {
+    background-color: lightcoral;
+    color: lightcoral;
+}
+
+.recipes-list li {
+    text-align: center;
+    font-size: 24px;
+}
+
+h2 {
+    background-color: cadetblue;
+}
+
+.ingredients-list {
+    background-color: lightcoral;
+}
+
+.steps {
+    background-color: lightcoral;
+}
+
+p {
+    background-color: lightcoral;
+}
