@@ -1,23 +1,53 @@
+html {
+    box-sizing: border-box;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+
 * {
-    font-family: Monaco, 'Lucida Console', 'Courier New', monospace;
+    /* font-family: Garamond, Georgia, 'Times New Roman', Times, serif; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-h1 {
-    background-color: cadetblue;
+.title-banner {
+    background-color: #334257;
     color: whitesmoke; 
     text-align: center;
-    font-size: 36px;
-}
-
-.recipes-list {
-    background-color: lightcoral;
-    color: lightcoral;
-}
-
-.recipes-list li {
-    text-align: center;
     font-size: 24px;
+    padding: 12px;
 }
+
+.content {
+    background-color: #3c607b;
+    height: 442px;
+    padding: 24px;
+}
+
+.links {
+    background-color: #334257;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 12px;
+    width: 75%;
+    border-color: #5f95a0;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.links button {
+    background-color: #5f95a0;
+    color: #5f95a0;
+    display: block;
+    font-size: 16px;
+    height: 70px;
+    width: 75%;
+    margin: 0 auto;
+    padding: 18px;
+
+}
+
 
 h2 {
     background-color: cadetblue;
